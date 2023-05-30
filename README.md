@@ -19,7 +19,9 @@ We create three benchmarks from existing text classification datasets to evaluat
 
 ![image-20230530143336617](./figure/dataset.png)
 
-We provide the processed data as well as the raw data for these three datasets. The datasets can be downloaded from the Baidu Cloud. You just need to download datasets and then put them in the corresponding directories. You can also try to use back translation to augment the data to get better performance.
+We provide the processed data as well as the raw data for these three datasets. The datasets can be downloaded from the [Baidu Cloud](https://pan.baidu.com/s/14m3urzM4PyNhWdK8fnYB5Q), access code is a53b.
+
+. You just need to download datasets and then put them in the corresponding directories. You can also try to use back translation to augment the data to get better performance.
 
 ## Training and Evaluation
 

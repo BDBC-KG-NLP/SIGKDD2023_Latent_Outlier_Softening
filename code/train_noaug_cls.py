@@ -528,7 +528,7 @@ def test_out_of_distribution_set(testloader, model, encoder, classifier, criteri
         if args.n_labeled == 10:
             threshold = 0.5
         elif args.n_labeled == 50:
-            threshold = 0.75
+            threshold = 0.8
         else:
             threshold = 0.85
         print(args.n_labeled)
@@ -577,7 +577,7 @@ def test_all_set(testloader, model, encoder, classifier, criterion, index_select
         if args.n_labeled == 10:
             threshold = 0.5
         elif args.n_labeled == 50:
-            threshold = 0.75
+            threshold = 0.8
         else:
             threshold = 0.85
         print(args.n_labeled)
